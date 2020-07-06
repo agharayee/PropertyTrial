@@ -10,4 +10,5 @@ namespace PropertyTrial.Data.Entities
     {
 
     }
+   
 }

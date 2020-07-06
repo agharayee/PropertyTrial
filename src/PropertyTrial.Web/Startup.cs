@@ -35,7 +35,7 @@ namespace PropertyTrial.Web
                {
                    SqlSeerverOption.MigrationsAssembly("PropertyTrial.Data");
                }));
-            services.AddDbContextPool<AuthenticationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AuthenticationConnection"),
+            services.AddDbContextPool<AuthenticationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AuthentificationConnection"),
                     sqlServerOptions =>
                     {
                         sqlServerOptions.MigrationsAssembly("PropertyTrial.Data");
